@@ -1,0 +1,2 @@
+"0","#by age"
+"0","plot(BostonHousing2[BostonHousing2$age_range == 0, ncol(BostonHousing2)])"

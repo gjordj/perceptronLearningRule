@@ -1,0 +1,4 @@
+"0","BostonHousing2$homes_range <- as.factor(ifelse(BostonHousing2$medv < "
+"0","                                                 ((max(BostonHousing2$medv) - min(BostonHousing2$medv))/2), 0, 1))"
+"0","# delete medv variable"
+"0","BostonHousing2$medv <- NULL"

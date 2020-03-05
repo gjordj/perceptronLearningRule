@@ -1,0 +1,3 @@
+"0","ages_na <- which(is.na(BostonHousing2$age_range) == TRUE)"
+"0","homes_na <- which(is.na(BostonHousing2$homes_range) == TRUE)"
+"0","# no NAs in this case"

@@ -1,0 +1,8 @@
+"0","# divide into test and training sets"
+"0","# create new col ""train"""" and assign 1 or 0 in 80/20 proportion via random uniform dist"
+"0","BostonHousing2[, ""train""] <- ifelse(runif(nrow(BostonHousing2)) < 0.80, 1, 0)"
+"0","# get col number of train / test indicator column (needed later)"
+"0","trainColNum <- grep(""train"", names(BostonHousing2))"
+"0","# separate training and test sets and remove training column before modeling"
+"0","trainBostonHousing2 <-BostonHousing2[BostonHousing2$train == 1,-trainColNum]"
+"0","testBostonHousing2 <- BostonHousing2[BostonHousing2$train == 0,-trainColNum]"

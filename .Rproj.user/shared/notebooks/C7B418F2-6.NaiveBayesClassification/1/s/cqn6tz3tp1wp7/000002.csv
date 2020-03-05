@@ -1,0 +1,5 @@
+"0","# Using cut"
+"0","BostonHousing2$age_range <- cut(BostonHousing2$age, breaks = c(-Inf, 20, 30, 40, 60, Inf), "
+"0","                       labels = c(0, 1, 2, 3, 4), "
+"0","                       right = FALSE)"
+"0","BostonHousing2$age <- NULL"
